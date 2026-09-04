@@ -10,7 +10,7 @@
 
 //optimal
 //ye example le,  nums = [1, 2, 3, 1]             
-//aur thoda iss line pe soch... -> i - mp[nums[i]] <= k
+//aur thoda iss line pe soch... -> i - mp[nums[i]] <= k, kuch previous and current index pe
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
